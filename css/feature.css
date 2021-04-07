@@ -1,0 +1,566 @@
+body{
+  font-family: "Athiti";
+  background-color: #000 !important;
+}
+.nav{
+  width: 100%;
+  height: 100px;
+}
+.collapse .navbar-nav .nav-item a{
+  color: #fff !important;
+}
+
+.collapse .navbar-nav .nav-item a:hover{
+  color: #ffbb00 !important;
+  transition: .5s;
+}
+.nav-item .dropdown-menu{
+  background-color: darkgray;
+}
+.fa-shopping-basket{
+  font-size: 18px;
+}
+/*silder*/
+#banner
+{
+	width: 100%;
+	height: 610px;
+	padding: 5 40px;
+
+	margin: 0;
+}
+.owl-carousel {
+	height: 600px;
+
+}
+.item{
+	height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+/*product*/
+h1{
+  text-align: center;
+  font-size: 65px;
+  color: #ffbb00;
+}
+.filter{
+  width: auto;
+  height: auto;
+  margin-left: 0 auto;
+  background-color: #ffbb00;
+  float: left;
+}
+.filter h2{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.size-pro{
+  float: left;
+}
+.colle-pro{
+  height: 138px;
+
+  float: left;
+}
+.sex-pro{
+  float: left;
+}
+.type-pro{
+  float: left;
+}
+.price-pro{
+  float: left;
+}
+.form-check{
+  float: left;
+  padding-left: 30px;
+}
+.form-check-input{
+  width: 20px;
+  height: 20px;
+}
+.form-check-label{
+  padding-left: 10px;
+  margin-top: 3px;
+  font-size: 18px;
+}
+#slider-range{
+  margin-top: 25px;
+}
+.pro-btn{
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  margin: 20px 0 20px 100px;
+}
+.pro-btn:hover{
+  background: #000;
+  color: #fff;
+  transition: .5s;
+}
+.drop-pro{
+  margin-top: 20px;
+  padding-left: 75px;
+  float: left;
+}
+.drop-pro h3{
+  font-size: 18px;
+  color: #ffbb00;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.btn-drop{
+  background-color: rgb(221, 221, 221) !important;
+  color: #000 !important;
+  float: left;
+}
+.all-pro{
+  position: relative;
+  float: left;
+}
+.pro-1{
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.pro-im{
+  display: block;
+  height: auto;
+  width: auto;
+}
+.pro-overlay{
+  width: 280px;
+  height: 100%;
+  background-color: #333;
+  opacity: 0;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-left: 15px;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-top: 20%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: lighter;
+  transition: all 0.5s ease-in-out;
+}
+.pro-item:hover .pro-overlay{
+  opacity: 0.9;
+}
+.pro-name{
+  color: #ffbb00;
+  font-size: 24px;
+  margin-top: 100px;
+}
+.pro-price{
+  color: #ffbb00;
+  font-size: 34px;
+  font-weight: bold;
+}
+.hide-pro{
+  display: none;
+}
+
+/*style*/
+.styleyou{
+  height: 1500px;
+  margin-top: 40px;
+  background-color: #ffbb00;
+}
+.styleyou h3{
+  width: 280px;
+  padding-top: 20px;
+  margin: 60px auto 0;
+  font-size: 18px;
+  text-align: center;
+}
+.style-pt{
+  margin: 20px 0;
+  float: left;
+  text-align: center;
+}
+.p-style{
+  width: 300px;
+}
+.style-text{
+  margin: 20px 0;
+  float: left;
+}
+.style-text h1{
+  color: #000;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.style-text h2{
+  text-align: left;
+  width: 280px;
+  margin: 80px auto 0 ;
+  font-size: 23px;
+
+}
+.style-text .style-btn{
+  width: 140px !important;
+  height: 60px !important;
+  font-size: 30px !important;
+  color: #ffbb00 !important;
+  text-decoration: underline;
+  border: none;
+  background: #000;
+  border-radius: 15px;
+  text-align: center;
+  margin: 60px 0 31px 90px;
+}
+.style-text .style-btn:hover{
+  color: #000 !important;
+  background-color: #ffbb00 !important;
+  transition: .5s;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 12px;   
+}
+.foot-logo{
+  margin: -20 auto;
+
+}
+.social-wrapper{
+  width: 180px;
+  height: 30px;
+  margin: 0 auto 30px;
+}
+.foot-address{
+  display: none;
+}
+.icon-style{
+  float: left;
+  font-size: 26px;
+  list-style: none;
+  width: 30px;
+  padding: 6px;
+  margin-right: 16px;
+}
+.icon-style a{
+  color: #fff;
+}
+.icon-style a:hover{
+  color: #ffbb00;
+  transition: 0.5s;
+}
+.foot-h{
+  display: none;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px){
+
+/*nav*/
+.login{
+  padding-left: 70px;
+}
+.line_box{
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+  float: left;
+  margin-top: 10px;
+}
+.flag{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.fa-shopping-basket{
+  margin-top: 4px;
+}
+.country{
+  padding-left: 5px;
+}
+
+/*product*/
+.filter{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ffbb00;
+  float: left;
+}
+.form-check{
+  padding-left: 28px;
+}
+.pro-btn{
+  margin-top: 20px;
+  margin-left: 290px;
+}
+.drop-pro{
+  padding-left: 480px;
+}
+.pro-im{
+  width: 200px;
+  height: 300px;
+}
+.hide-pro{
+  display: unset;
+}
+.pro-overlay{
+  width: 200px;
+}
+.pro-name{
+  margin-top: 25px;
+}
+.pro-price{
+  font-size: 26px;
+}
+
+/*style*/
+.styleyou{
+  height: 1460px;
+  margin-top: 40px;
+  background-color: #ffbb00;
+}
+.styleyou h3{
+  width: 600px;
+  padding-top: 20px;
+  margin: 60px auto 0;
+  font-size: 24px;
+  text-align: center;
+}
+.style-pt{
+  margin: 20px 0;
+  float: left;
+  text-align: center;
+  padding-left: 25px;
+}
+.p-style{
+  width: 470px;
+}
+.style-text h1{
+  font-size: 52px;
+}
+.style-text h2{
+  text-align: left;
+  width: 540px;
+  margin: 80px auto 0 ;
+  font-size: 23px;
+
+}
+.style-text .style-btn{
+  margin-left: 300px;
+}
+.style-text .style-btn:hover{
+  background-color: #ffbb00 !important;
+  color: #000 !important;
+  transition: .5s;
+}
+
+/*footer*/
+footer{
+  width: 100%;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 12px;   
+  float: left;
+}
+footer h1{
+  color: #fff;
+}
+.foot-left{
+  float: left;
+}
+.foot-logo{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.foot-right{
+  height: 240px;
+  float: left;
+}
+.foot-address{
+  display: unset;
+  width: 240px;
+  height: 110px;
+  text-align: left;
+}
+.foot-address h1{
+  font-size: 32px;
+  margin: 10px auto;
+}
+.foot-address p{
+  font-size: 18px;
+}
+.text-footer{
+  float: left;
+  padding-left: 40px;
+}
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px){
+
+
+/*nav*/
+.collapse .navbar-nav .nav-item a{
+  font-size: 18px;
+}
+.item-w{
+  width: 80px;
+}
+.login{
+  padding-left: 1200px;
+}
+
+  /*product*/
+.filter{
+  width: 300px;
+  height: auto;
+  margin-left: 210px;
+  background-color: #ffbb00;
+  float: left;
+}
+.filter h2{
+  font-size: 26px;
+}
+.drop-pro{
+  padding-left: 960px;
+}
+.drop-pro h3{
+  font-size: 18px;
+  color: #ffbb00;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.pro-btn{
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.btn-drop{
+  background-color: rgb(221, 221, 221) !important;
+  color: #000 !important;
+  float: left;
+}
+.all-pro{
+  width: 100%;
+  float: left;
+}
+.pro-1{
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.pro-im{
+  width: 300px;
+  height: 420px;
+}
+.pro-overlay{
+  width: 300px;
+}
+.pro-name{
+  margin-top: 60px;
+  font-size: 26px;
+}
+.pro-price{
+  font-size: 32px;
+}
+
+/*style*/
+.styleyou{
+  height: 860px;
+  margin-top: 40px;
+  background-color: #ffbb00;
+}
+.styleyou h3{
+  width: 100%;
+  padding-top: 20px;
+  margin: 60px auto 20px;
+  font-size: 38px;
+  text-align: center;
+}
+.style-pt{
+  margin: 20px 0;
+  float: left;
+  text-align: center;
+  padding-left: 340px;
+}
+.style-text h1{
+  font-size: 62px;
+}
+.style-text h2{
+  width: 600px;
+}
+.style-text .style-btn{
+  margin-top: 120px;
+  margin-left: 460px;
+}
+
+/*footer*/
+footer{
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 12px;   
+  float: left;
+}
+.foot-left{
+  float: left;
+}
+.foot-logo{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.foot-right{
+  height: 260px;
+  float: left;
+}
+.foot-address{
+  display: unset;
+  width: 260px;
+  height: 110px;
+}
+.foot-address h1{
+  font-size: 32px;
+  margin: 10px auto;
+  text-align: left;
+}
+.foot-address p{
+  font-size: 18px;
+}
+.foot-h{
+  display: unset;
+  width: 260px;
+  float: left;
+}
+.foot-h h1{
+  font-size: 32px;
+  margin: 10px auto;
+}
+.foot-h p{
+  font-size: 18px;
+}
+.follow{
+  float: left;
+  margin-right: 40px;
+}
+.text-footer{
+  text-align: center;
+  float: left;
+}
+}
